@@ -1,17 +1,26 @@
 # Bible Companion
 
-SwiftUI Bible reader with reading journeys, a companion chat interface, widgets, and a Python backend.
+I built Bible Companion to bring Scripture reading, reflection, and reading journeys into one iOS app. I wanted the interface to feel approachable and easy to return to each day.
 
-## Technology
+I included a Bible reader, saved passages and reflections, a companion conversation interface, reading journeys, appearance settings, and home screen widgets. The app includes a bundled Bible for reading without a network connection; companion features use a separate service.
 
-SwiftUI, Swift, Python.
+## Built with
 
-## Run locally
+I used Swift and SwiftUI for the app and widgets. I included a Python backend reference in this portfolio copy.
 
-Open `BibleCompanion Swift.xcodeproj` in Xcode, choose your development team and an iOS simulator, and run the app. Configure `BibleCompanion Swift/Services/config.swift` with your own backend URL. The included `Backend/requirements.txt` lists the Python backend dependencies.
+## Inside the project
 
-## Portfolio snapshot
+* `BibleCompanion Swift/`: the iOS app.
+* `DailyCompanionWidget/`: widget views and shared data.
+* `Backend/`: the included backend reference.
+* `BibleCompanion Swift.xcodeproj/`: the Xcode project.
 
-This repository contains a source snapshot of a personal project. Personal records, credentials, browser sessions, local databases, and generated output are excluded. Use your own configuration and fictional data when evaluating it. Some integrations require external accounts or additional setup. This is a development project, with feature limitations documented in the source and guides.
+## Running it
 
-See [the project guide](PROJECT_GUIDE.md) for implementation details and earlier development notes. Verification claims in that guide describe the original working copy; they are not a fresh end-to-end test of this portfolio snapshot.
+I open `BibleCompanion Swift.xcodeproj` in Xcode, choose my development team and a simulator, and run the app. I set my own service URL in `BibleCompanion Swift/Services/config.swift` for companion features.
+
+I keep this copy for browsing the app. I also keep the [iOS development repository](https://github.com/2MilinEcom/BIBLE-COMPANION) and the [backend repository](https://github.com/2MilinEcom/BIBLE-COMPANION-BACKEND) separate.
+
+## More detail
+
+* [Implementation notes and verification history](PROJECT_GUIDE.md)
